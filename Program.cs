@@ -1,9 +1,17 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
+using Serilog;
 using TestJoin1.DataAccess;
+//use serilog to log events
 
 var builder = WebApplication.CreateBuilder(args);
-
+//configurar selilog
+builder.Host.UseSerilog((hostBuilderCtx, loggerConf) =>
+{
+    loggerConf.WriteTo.Console().
+                WriteTo.Debug().
+                ReadFrom.Configuration(hostBuilderCtx.Configuration);
+});
 // Add services to the container.
 //Localization
 builder.Services.AddLocalization(options => options.ResourcesPath = "Resources");
@@ -31,6 +39,8 @@ if (!app.Environment.IsDevelopment())
     // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
+//Tell app to use Serilog
+app.UseSerilogRequestLogging();
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();

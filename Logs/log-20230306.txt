@@ -1,0 +1,135 @@
+2023-03-06 20:47:36.959 -06:00 [INF] User profile is available. Using 'C:\Users\elias\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-03-06 20:47:37.477 -06:00 [INF] Now listening on: https://localhost:7274
+2023-03-06 20:47:37.583 -06:00 [INF] Now listening on: http://localhost:5148
+2023-03-06 20:47:37.599 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-06 20:47:37.604 -06:00 [INF] Hosting environment: Development
+2023-03-06 20:47:37.608 -06:00 [INF] Content root path: C:\Users\elias\Documents\c# ASP.NET\BACKEND\TestJoin1\
+2023-03-06 20:47:43.599 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7274/ - -
+2023-03-06 20:47:43.713 -06:00 [INF] Executing endpoint 'TestJoin1.Controllers.HomeController.Index (TestJoin1)'
+2023-03-06 20:47:43.766 -06:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller TestJoin1.Controllers.HomeController (TestJoin1).
+2023-03-06 20:47:43.792 -06:00 [INF] Executing ViewResult, running view Index.
+2023-03-06 20:47:44.276 -06:00 [INF] Executed ViewResult - view Index executed in 492.7309ms.
+2023-03-06 20:47:44.291 -06:00 [INF] Executed action TestJoin1.Controllers.HomeController.Index (TestJoin1) in 519.5957ms
+2023-03-06 20:47:44.295 -06:00 [INF] Executed endpoint 'TestJoin1.Controllers.HomeController.Index (TestJoin1)'
+2023-03-06 20:47:44.304 -06:00 [INF] HTTP GET / responded 200 in 628.4492 ms
+2023-03-06 20:47:44.429 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7274/ - - - 200 - text/html;+charset=utf-8 832.1887ms
+2023-03-06 20:47:44.476 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7274/_framework/aspnetcore-browser-refresh.js - -
+2023-03-06 20:47:44.481 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7274/_vs/browserLink - -
+2023-03-06 20:47:44.490 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7274/_framework/aspnetcore-browser-refresh.js - - - 200 11988 application/javascript;+charset=utf-8 13.6520ms
+2023-03-06 20:47:44.620 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7274/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 139.4509ms
+2023-03-06 20:48:03.714 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7274/Departamentoes - -
+2023-03-06 20:48:03.725 -06:00 [INF] Executing endpoint 'TestJoin1.Controllers.DepartamentoesController.Index (TestJoin1)'
+2023-03-06 20:48:03.742 -06:00 [INF] Route matched with {action = "Index", controller = "Departamentoes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller TestJoin1.Controllers.DepartamentoesController (TestJoin1).
+2023-03-06 20:48:04.060 -06:00 [INF] DepartamentoesController - Index - Information Level log
+2023-03-06 20:48:04.063 -06:00 [WRN] DepartamentoesController - Index - LogWarning Level log
+2023-03-06 20:48:04.067 -06:00 [ERR] DepartamentoesController - Index -  LogError Level log
+2023-03-06 20:48:04.070 -06:00 [FTL] DepartamentoesController - Index - LogCritical Level log
+2023-03-06 20:48:07.018 -06:00 [INF] Executed DbCommand (111ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [d].[Id], [d].[Nombre]
+FROM [Departamentos] AS [d]
+2023-03-06 20:48:07.245 -06:00 [INF] Executing ViewResult, running view Index.
+2023-03-06 20:48:07.315 -06:00 [INF] Executed ViewResult - view Index executed in 71.8338ms.
+2023-03-06 20:48:07.319 -06:00 [INF] Executed action TestJoin1.Controllers.DepartamentoesController.Index (TestJoin1) in 3571.5645ms
+2023-03-06 20:48:07.324 -06:00 [INF] Executed endpoint 'TestJoin1.Controllers.DepartamentoesController.Index (TestJoin1)'
+2023-03-06 20:48:07.328 -06:00 [INF] HTTP GET /Departamentoes responded 200 in 3607.1898 ms
+2023-03-06 20:48:07.394 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7274/Departamentoes - - - 200 - text/html;+charset=utf-8 3680.5851ms
+2023-03-06 20:48:07.411 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7274/_framework/aspnetcore-browser-refresh.js - -
+2023-03-06 20:48:07.411 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7274/_vs/browserLink - -
+2023-03-06 20:48:07.420 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7274/_framework/aspnetcore-browser-refresh.js - - - 200 11988 application/javascript;+charset=utf-8 9.0434ms
+2023-03-06 20:48:07.446 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7274/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 35.2836ms
+2023-03-06 20:48:42.275 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7274/Departamentoes - -
+2023-03-06 20:48:42.285 -06:00 [INF] Executing endpoint 'TestJoin1.Controllers.DepartamentoesController.Index (TestJoin1)'
+2023-03-06 20:48:42.289 -06:00 [INF] Route matched with {action = "Index", controller = "Departamentoes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller TestJoin1.Controllers.DepartamentoesController (TestJoin1).
+2023-03-06 20:48:42.293 -06:00 [INF] DepartamentoesController - Index - Information Level log
+2023-03-06 20:48:42.296 -06:00 [WRN] DepartamentoesController - Index - LogWarning Level log
+2023-03-06 20:48:42.298 -06:00 [ERR] DepartamentoesController - Index -  LogError Level log
+2023-03-06 20:48:42.301 -06:00 [FTL] DepartamentoesController - Index - LogCritical Level log
+2023-03-06 20:48:42.316 -06:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [d].[Id], [d].[Nombre]
+FROM [Departamentos] AS [d]
+2023-03-06 20:48:42.325 -06:00 [INF] Executing ViewResult, running view Index.
+2023-03-06 20:48:42.339 -06:00 [INF] Executed ViewResult - view Index executed in 14.8521ms.
+2023-03-06 20:48:42.342 -06:00 [INF] Executed action TestJoin1.Controllers.DepartamentoesController.Index (TestJoin1) in 49.7198ms
+2023-03-06 20:48:42.347 -06:00 [INF] Executed endpoint 'TestJoin1.Controllers.DepartamentoesController.Index (TestJoin1)'
+2023-03-06 20:48:42.352 -06:00 [INF] HTTP GET /Departamentoes responded 200 in 68.4831 ms
+2023-03-06 20:48:42.359 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7274/Departamentoes - - - 200 - text/html;+charset=utf-8 89.7439ms
+2023-03-06 20:48:42.408 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7274/_framework/aspnetcore-browser-refresh.js - -
+2023-03-06 20:48:42.411 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7274/_vs/browserLink - -
+2023-03-06 20:48:42.415 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7274/_framework/aspnetcore-browser-refresh.js - - - 200 11988 application/javascript;+charset=utf-8 9.3708ms
+2023-03-06 20:48:42.455 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7274/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 44.1021ms
+2023-03-06 20:48:44.255 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7274/Empleadoes - -
+2023-03-06 20:48:44.262 -06:00 [INF] Executing endpoint 'TestJoin1.Controllers.EmpleadoesController.Index (TestJoin1)'
+2023-03-06 20:48:44.268 -06:00 [INF] Route matched with {action = "Index", controller = "Empleadoes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller TestJoin1.Controllers.EmpleadoesController (TestJoin1).
+2023-03-06 20:48:44.664 -06:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[Id], [e].[DepartamentoId], [e].[Nombre], [d].[Id], [d].[Nombre]
+FROM [Empleados] AS [e]
+INNER JOIN [Departamentos] AS [d] ON [e].[DepartamentoId] = [d].[Id]
+2023-03-06 20:48:44.704 -06:00 [INF] Executing ViewResult, running view Index.
+2023-03-06 20:48:44.722 -06:00 [INF] Executed ViewResult - view Index executed in 19.1076ms.
+2023-03-06 20:48:44.726 -06:00 [INF] Executed action TestJoin1.Controllers.EmpleadoesController.Index (TestJoin1) in 453.2214ms
+2023-03-06 20:48:44.729 -06:00 [INF] Executed endpoint 'TestJoin1.Controllers.EmpleadoesController.Index (TestJoin1)'
+2023-03-06 20:48:44.733 -06:00 [INF] HTTP GET /Empleadoes responded 200 in 471.3626 ms
+2023-03-06 20:48:44.740 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7274/Empleadoes - - - 200 - text/html;+charset=utf-8 485.2602ms
+2023-03-06 20:48:44.771 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7274/_framework/aspnetcore-browser-refresh.js - -
+2023-03-06 20:48:44.771 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7274/_vs/browserLink - -
+2023-03-06 20:48:44.781 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7274/_framework/aspnetcore-browser-refresh.js - - - 200 11988 application/javascript;+charset=utf-8 10.0174ms
+2023-03-06 20:48:44.848 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7274/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 76.8876ms
+2023-03-06 20:50:03.195 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7274/Departamentoes - -
+2023-03-06 20:50:03.207 -06:00 [INF] Executing endpoint 'TestJoin1.Controllers.DepartamentoesController.Index (TestJoin1)'
+2023-03-06 20:50:03.211 -06:00 [INF] Route matched with {action = "Index", controller = "Departamentoes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller TestJoin1.Controllers.DepartamentoesController (TestJoin1).
+2023-03-06 20:50:03.215 -06:00 [INF] DepartamentoesController - Index - Information Level log
+2023-03-06 20:50:03.217 -06:00 [WRN] DepartamentoesController - Index - LogWarning Level log
+2023-03-06 20:50:03.220 -06:00 [ERR] DepartamentoesController - Index -  LogError Level log
+2023-03-06 20:50:03.223 -06:00 [FTL] DepartamentoesController - Index - LogCritical Level log
+2023-03-06 20:50:03.228 -06:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [d].[Id], [d].[Nombre]
+FROM [Departamentos] AS [d]
+2023-03-06 20:50:03.233 -06:00 [INF] Executing ViewResult, running view Index.
+2023-03-06 20:50:03.243 -06:00 [INF] Executed ViewResult - view Index executed in 10.0923ms.
+2023-03-06 20:50:03.247 -06:00 [INF] Executed action TestJoin1.Controllers.DepartamentoesController.Index (TestJoin1) in 32.6602ms
+2023-03-06 20:50:03.251 -06:00 [INF] Executed endpoint 'TestJoin1.Controllers.DepartamentoesController.Index (TestJoin1)'
+2023-03-06 20:50:03.254 -06:00 [INF] HTTP GET /Departamentoes responded 200 in 46.7528 ms
+2023-03-06 20:50:03.265 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7274/Departamentoes - - - 200 - text/html;+charset=utf-8 69.5520ms
+2023-03-06 20:50:03.285 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7274/_vs/browserLink - -
+2023-03-06 20:50:03.285 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7274/_framework/aspnetcore-browser-refresh.js - -
+2023-03-06 20:50:03.312 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7274/_framework/aspnetcore-browser-refresh.js - - - 200 11988 application/javascript;+charset=utf-8 26.5514ms
+2023-03-06 20:50:03.370 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7274/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 84.8569ms
+2023-03-06 20:55:17.709 -06:00 [INF] User profile is available. Using 'C:\Users\elias\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-03-06 20:55:18.200 -06:00 [INF] Now listening on: https://localhost:7274
+2023-03-06 20:55:18.209 -06:00 [INF] Now listening on: http://localhost:5148
+2023-03-06 20:55:18.218 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-06 20:55:18.222 -06:00 [INF] Hosting environment: Development
+2023-03-06 20:55:18.226 -06:00 [INF] Content root path: C:\Users\elias\Documents\c# ASP.NET\BACKEND\TestJoin1\
+2023-03-06 20:55:19.031 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7274/ - -
+2023-03-06 20:55:19.157 -06:00 [INF] Executing endpoint 'TestJoin1.Controllers.HomeController.Index (TestJoin1)'
+2023-03-06 20:55:19.211 -06:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller TestJoin1.Controllers.HomeController (TestJoin1).
+2023-03-06 20:55:19.248 -06:00 [INF] Executing ViewResult, running view Index.
+2023-03-06 20:55:19.521 -06:00 [INF] Executed ViewResult - view Index executed in 289.1326ms.
+2023-03-06 20:55:19.536 -06:00 [INF] Executed action TestJoin1.Controllers.HomeController.Index (TestJoin1) in 318.4939ms
+2023-03-06 20:55:19.540 -06:00 [INF] Executed endpoint 'TestJoin1.Controllers.HomeController.Index (TestJoin1)'
+2023-03-06 20:55:19.548 -06:00 [INF] HTTP GET / responded 200 in 425.2571 ms
+2023-03-06 20:55:19.632 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7274/ - - - 200 - text/html;+charset=utf-8 602.5962ms
+2023-03-06 20:55:19.670 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7274/_framework/aspnetcore-browser-refresh.js - -
+2023-03-06 20:55:19.670 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7274/_vs/browserLink - -
+2023-03-06 20:55:19.695 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7274/_framework/aspnetcore-browser-refresh.js - - - 200 11988 application/javascript;+charset=utf-8 24.9959ms
+2023-03-06 20:55:19.769 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7274/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 98.9977ms
+2023-03-06 20:55:22.203 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7274/Departamentoes - -
+2023-03-06 20:55:22.210 -06:00 [INF] Executing endpoint 'TestJoin1.Controllers.DepartamentoesController.Index (TestJoin1)'
+2023-03-06 20:55:22.228 -06:00 [INF] Route matched with {action = "Index", controller = "Departamentoes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller TestJoin1.Controllers.DepartamentoesController (TestJoin1).
+2023-03-06 20:55:22.478 -06:00 [INF] DepartamentoesController - Index - Information Level log
+2023-03-06 20:55:22.481 -06:00 [WRN] DepartamentoesController - Index - LogWarning Level log
+2023-03-06 20:55:22.486 -06:00 [ERR] DepartamentoesController - Index -  LogError Level log
+2023-03-06 20:55:22.489 -06:00 [FTL] DepartamentoesController - Index - LogCritical Level log
+2023-03-06 20:55:24.836 -06:00 [INF] Executed DbCommand (98ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [d].[Id], [d].[Nombre]
+FROM [Departamentos] AS [d]
+2023-03-06 20:55:24.996 -06:00 [INF] Executing ViewResult, running view Index.
+2023-03-06 20:55:25.043 -06:00 [INF] Executed ViewResult - view Index executed in 47.3927ms.
+2023-03-06 20:55:25.046 -06:00 [INF] Executed action TestJoin1.Controllers.DepartamentoesController.Index (TestJoin1) in 2814.4979ms
+2023-03-06 20:55:25.049 -06:00 [INF] Executed endpoint 'TestJoin1.Controllers.DepartamentoesController.Index (TestJoin1)'
+2023-03-06 20:55:25.052 -06:00 [INF] HTTP GET /Departamentoes responded 200 in 2843.9190 ms
+2023-03-06 20:55:25.087 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7274/_framework/aspnetcore-browser-refresh.js - -
+2023-03-06 20:55:25.087 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7274/_vs/browserLink - -
+2023-03-06 20:55:25.095 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7274/_framework/aspnetcore-browser-refresh.js - - - 200 11988 application/javascript;+charset=utf-8 7.9627ms
+2023-03-06 20:55:25.115 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7274/Departamentoes - - - 200 - text/html;+charset=utf-8 2911.6497ms
+2023-03-06 20:55:25.157 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7274/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 69.3943ms

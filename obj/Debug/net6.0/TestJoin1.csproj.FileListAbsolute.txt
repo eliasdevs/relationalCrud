@@ -294,3 +294,12 @@ C:\Users\elias\Documents\c# ASP.NET\BACKEND\TestJoin1\obj\Debug\net6.0\en-US\Tes
 C:\Users\elias\Documents\c# ASP.NET\BACKEND\TestJoin1\obj\Debug\net6.0\es-ES\TestJoin1.resources.dll
 C:\Users\elias\Documents\c# ASP.NET\BACKEND\TestJoin1\obj\Debug\net6.0\TestJoin1.Resources.Controllers.DepartamentoesController.en-US.resources
 C:\Users\elias\Documents\c# ASP.NET\BACKEND\TestJoin1\obj\Debug\net6.0\TestJoin1.Resources.Controllers.DepartamentoesController.es-ES.resources
+C:\Users\elias\Documents\c# ASP.NET\BACKEND\TestJoin1\bin\Debug\net6.0\Serilog.dll
+C:\Users\elias\Documents\c# ASP.NET\BACKEND\TestJoin1\bin\Debug\net6.0\Serilog.AspNetCore.dll
+C:\Users\elias\Documents\c# ASP.NET\BACKEND\TestJoin1\bin\Debug\net6.0\Serilog.Extensions.Hosting.dll
+C:\Users\elias\Documents\c# ASP.NET\BACKEND\TestJoin1\bin\Debug\net6.0\Serilog.Extensions.Logging.dll
+C:\Users\elias\Documents\c# ASP.NET\BACKEND\TestJoin1\bin\Debug\net6.0\Serilog.Formatting.Compact.dll
+C:\Users\elias\Documents\c# ASP.NET\BACKEND\TestJoin1\bin\Debug\net6.0\Serilog.Settings.Configuration.dll
+C:\Users\elias\Documents\c# ASP.NET\BACKEND\TestJoin1\bin\Debug\net6.0\Serilog.Sinks.Console.dll
+C:\Users\elias\Documents\c# ASP.NET\BACKEND\TestJoin1\bin\Debug\net6.0\Serilog.Sinks.Debug.dll
+C:\Users\elias\Documents\c# ASP.NET\BACKEND\TestJoin1\bin\Debug\net6.0\Serilog.Sinks.File.dll

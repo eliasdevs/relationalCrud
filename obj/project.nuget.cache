@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "zg54nJvSfBxac1gK5df5XkCX6WnRXh9GD9s6LWRkXcppszlp8GMTAs8tZUpxkJvo2/1+GIQ+R3g7wOUirdrmDA==",
+  "dgSpecHash": "JLuj7kYMnkcKK/0kJdy5rwRsn6d4A3lR5n1tUgvW98/TE1aKrdm+5eAVnNmOODgTDGJfZFO3CNswVfEFH6w6IQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\elias\\Documents\\c# ASP.NET\\BACKEND\\TestJoin1\\TestJoin1.csproj",
   "expectedPackageFiles": [
@@ -113,7 +113,7 @@
     "C:\\Users\\elias\\.nuget\\packages\\serilog.extensions.logging\\3.1.0\\serilog.extensions.logging.3.1.0.nupkg.sha512",
     "C:\\Users\\elias\\.nuget\\packages\\serilog.formatting.compact\\1.1.0\\serilog.formatting.compact.1.1.0.nupkg.sha512",
     "C:\\Users\\elias\\.nuget\\packages\\serilog.settings.configuration\\3.3.0\\serilog.settings.configuration.3.3.0.nupkg.sha512",
-    "C:\\Users\\elias\\.nuget\\packages\\serilog.sinks.console\\4.0.1\\serilog.sinks.console.4.0.1.nupkg.sha512",
+    "C:\\Users\\elias\\.nuget\\packages\\serilog.sinks.console\\4.1.0\\serilog.sinks.console.4.1.0.nupkg.sha512",
     "C:\\Users\\elias\\.nuget\\packages\\serilog.sinks.debug\\2.0.0\\serilog.sinks.debug.2.0.0.nupkg.sha512",
     "C:\\Users\\elias\\.nuget\\packages\\serilog.sinks.file\\5.0.0\\serilog.sinks.file.5.0.0.nupkg.sha512",
     "C:\\Users\\elias\\.nuget\\packages\\system.appcontext\\4.3.0\\system.appcontext.4.3.0.nupkg.sha512",

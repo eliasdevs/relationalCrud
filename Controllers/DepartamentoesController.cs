@@ -16,16 +16,25 @@ namespace TestJoin1.Controllers
     {
         private readonly TestJoinContext _context;
         private readonly IStringLocalizer<DepartamentoesController> _stringLocalizer;
+        private readonly ILogger<DepartamentoesController> _logger;
 
-        public DepartamentoesController(TestJoinContext context, IStringLocalizer<DepartamentoesController> stringLocalizer )
+
+        public DepartamentoesController(TestJoinContext context, IStringLocalizer<DepartamentoesController> stringLocalizer, ILogger<DepartamentoesController> logger)
         {
             _context = context;
             _stringLocalizer = stringLocalizer;
+            _logger = logger;
         }
 
         // GET: Departamentoes
         public async Task<IActionResult> Index()
         {
+            _logger.LogTrace($"{nameof(DepartamentoesController)} - {nameof(Index)} - Tracer Level Log");
+            _logger.LogDebug($"{nameof(DepartamentoesController)} - {nameof(Index)} - Debug Level Log");
+            _logger.LogInformation($"{nameof(DepartamentoesController)} - {nameof(Index)} - Information Level log");
+            _logger.LogWarning($"{nameof(DepartamentoesController)} - {nameof(Index)} - LogWarning Level log");
+            _logger.LogError($"{nameof(DepartamentoesController)} - {nameof(Index)} -  LogError Level log");
+            _logger.LogCritical($"{nameof(DepartamentoesController)} - {nameof(Index)} - LogCritical Level log");
             ViewBag.VistaAccionCrear = _stringLocalizer["VistaAccionCrear"];
             return View(await _context.Departamentos.ToListAsync());
         }
